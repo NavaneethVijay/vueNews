@@ -1,0 +1,12 @@
+{
+  "server": {
+    "host": "localhost",
+    "port": 8080
+  },
+  "newsApi": {
+    "apiUrl": "https://newsapi.org/v2/",
+    "apiKey": "b9641713d8b84d05bbdddd31e9219646",
+    "endpoints": ["top-headlines", "everything", "sources"],
+    "options": ["sources", "language", "country", "category"]
+  }
+}
